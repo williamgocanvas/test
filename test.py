@@ -1,4 +1,5 @@
 print("this is just a test script that prints the phrase Hello World")
-x = 1
+x = 2
 y = 2
-print(x + y)
+z = x + y
+assert sum([x,y]) == 3, "Should be three"
