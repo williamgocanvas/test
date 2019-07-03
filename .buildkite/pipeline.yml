@@ -1,6 +1,3 @@
 steps:
-  - label: Example Test
-    command: echo "Hello!"
-  - label: ":clown_face:"
-    plugins:
-      - detect-clowns#v1.0.0: ~
+  - plugins:
+      - detect-clowns#v2.0.0: ~
