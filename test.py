@@ -3,3 +3,4 @@ x = 1
 y = 2
 z = x + y
 assert sum([x,y]) == 3, "Should be three!"
+print("this seemed to work.")
